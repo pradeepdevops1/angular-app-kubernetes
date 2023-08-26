@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: nginx:1.7.9
+        image: saikrishnareddy9100/angularapp:#{Build.BuildId}#
         ports:
         - containerPort: 80
 
